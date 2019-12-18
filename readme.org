@@ -23,4 +23,4 @@ Windows.
 * TODO-List
 
 - [ ] make new command or change style for tables and graphs.
-- [ ] change the page's margin.
+- [X] change the page's margin.
