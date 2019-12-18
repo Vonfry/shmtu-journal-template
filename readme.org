@@ -17,4 +17,10 @@ homework or short eassy. It is origin from Journal of
 ** Customize
 
 In this template, the chinese font is =Noto= instead of =Song= and english font
-is =Liberation Serif= instead of =Times New Roman=. You may need change them on Windows.
+is =Liberation Serif= instead of =Times New Roman=. You may need change them on
+Windows.
+
+* TODO-List
+
+- [ ] make new command or change style for tables and graphs.
+- [ ] change the page's margin.
