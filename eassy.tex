@@ -1,0 +1,82 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+\documentclass[10.5pt,a4paper,onecolumn]{article}
+\usepackage{fontspec,xltxtra,xunicode,hyperref}
+\usepackage[nofonts]{ctex}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{tabularx}
+\usepackage{longtable}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% 英文字体，linux
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Serif}
+\setmonofont{Liberation Sans}
+
+% 中文字体，linux
+\setCJKmainfont{Noto Sans CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+
+\usepackage[a4paper]{geometry}
+\usepackage{microtype}
+
+\usepackage{verbatim}
+\usepackage{listings}
+
+\setlength\parindent{2em}
+% 从零开始计录章节
+\setcounter{section}{-1}
+\usepackage{titlesec}
+\titleformat{\section}{\fontsize{15pt}{\baselineskip}}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\fontsize{15pt}{\baselineskip}}{\thesubsection}{0.5em}{}
+
+% 页眉脚
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% 信息
+\title{\vspace{-6ex}Title}
+\author{\vspace{-6ex}Author}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+\renewcommand{\abstractname}{}
+\begin{abstract}
+    \noindent{}\textbf{摘要}：......\par
+    \noindent{}\textbf{关键字}：......  \textbf{中图分类号：}xxx \qquad \textbf{文献标志码：}A
+\end{abstract}
+\begin{abstract}
+    \noindent{}\textbf{Abstract：}......\par
+    \noindent{}\textbf{Key words}：......
+\end{abstract}
+
+% 正文
+\pagenumbering{arabic}
+\section{引言}
+今天天气不错
+\subsection{引言小节}
+今天天气不错
+\section{证明}
+\section{结论}
+
+% 附录
+\newpage
+\appendix
+
+\end{document}
