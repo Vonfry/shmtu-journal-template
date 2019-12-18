@@ -1,0 +1,20 @@
+#+title: Readme
+#+author:Vonfry
+#+email: shmtu@vonfry.name
+
+* Brief
+
+This repo is a template for latex used in shanghai maritime university for
+homework or short eassy. It is origin from Journal of
+[[Shanghai Maritime University][http://www.smujournal.cn/ch/common_item.aspx?parent_id=20080408105712001&menu_id=20170331031841001&flag=1&child=0&is_three_menu=0]]
+
+* Usage
+
+** Build
+
+~latexmk~ is enough.
+
+** Customize
+
+In this template, the chinese font is =Noto= instead of =Song= and english font
+is =Liberation Serif= instead of =Times New Roman=. You may need change them on Windows.
