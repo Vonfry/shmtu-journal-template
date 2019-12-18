@@ -6,7 +6,7 @@
 
 This repo is a template for latex used in shanghai maritime university for
 homework or short eassy. It is origin from Journal of
-[[Shanghai Maritime University][http://www.smujournal.cn/ch/common_item.aspx?parent_id=20080408105712001&menu_id=20170331031841001&flag=1&child=0&is_three_menu=0]]
+[[http://www.smujournal.cn/ch/common_item.aspx?parent_id=20080408105712001&menu_id=20170331031841001&flag=1&child=0&is_three_menu=0][Shanghai Maritime University]]
 
 * Usage
 
