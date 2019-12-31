@@ -16,7 +16,7 @@ homework or short eassy. It is origin from Journal of
 
 ** Customize
 
-In this template, the chinese font is =Noto= instead of =Song= and english font
+In this template, the chinese font is =Source Hans= instead of =Song= and english font
 is =Liberation Serif= instead of =Times New Roman=. You may need change them on
 Windows.
 
